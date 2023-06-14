@@ -10,15 +10,17 @@
     <meta name="format-detection" content="telephone=no">
     <title>Palve Hospital</title>
     <!-- Stylesheets -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script> -->
+   
     <link href="vendor/slick/slick.css" rel="stylesheet">
     <link href="vendor/animate/animate.min.css" rel="stylesheet">
     <link href="icons/style.css" rel="stylesheet">
     <link href="vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="color/color.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!--Favicon-->
     <link rel="icon" href="images/P Logo-01.png" type="image/x-icon">
     <!-- Google Fonts -->
@@ -27,7 +29,7 @@
 </head>
 
 <body class="shop-page layout-medlab">
-    <div class="settings-panel">
+    <!-- <div class="settings-panel">
         <div class="settings-panel-buy-now"><a href="https://themeforest.net/item/medin-medical-clinic-html-template/22564438?s_rank=1" target="_blank" class="settings-panel-btn btn-primary"> <img src="color/icon-cart.png" alt=""> Purchase Now </a></div>
         <div class="settings-panel-colorswatch js-settings-panel-item">
             <div class="settings-panel-btn btn-primary js-settings-panel-btn"><img src="color/icon-settings.png" alt=""></div>
@@ -42,7 +44,7 @@
             <div class="settings-panel-inside"><a href="http://websmirno.site/medin/html/dentco-html/"><img src="color/screen-layout-1.png" alt=""></a> <a href="http://websmirno.site/medin/html/surgery-html/"><img src="color/screen-layout-2.png" alt=""></a> <a href="http://websmirno.site/medin/html/medol-html/"><img src="color/screen-layout-3.png" alt=""></a>                <a href="http://websmirno.site/medin/html/medera-html/"><img src="color/screen-layout-4.png" alt=""></a> <a href="http://websmirno.site/medin/html/medeye-html/"><img src="color/screen-layout-5.png" alt=""></a> <a href="http://websmirno.site/medin/html/medlab-html/"
                     class="active"><img src="color/screen-layout-6.png" alt=""></a><a href="http://websmirno.site/medin/html/weightloss-html/"><img src="color/screen-layout-7.png" alt=""></a></div>
         </div>
-    </div>
+    </div> -->
     <!--header-->
     <header class="header">
         <div class="header-quickLinks js-header-quickLinks d-lg-none">
@@ -54,16 +56,40 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-auto d-flex align-items-center">
-                        <div class="header-info"><i class="icon-placeholder2"></i>1560 Holden Street San Diego, CA 92139</div>
-                        <div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">1-800-267-0000</a></div>
-                        <div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@dentco.net</a></div>
+                        <div class="header-info"><i class="icon-placeholder2"></i> Plot No.1, Opp Dwarka Garden,
+                             Chandan Nagar, Kharadi, Pune</div>
+                        <div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">+91 8149202506</a></div>
+                        <div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@drpalvehospital.com">info@drpalvehospital.com</a></div>
                     </div>
                     <div class="col-auto ml-auto d-flex align-items-center">
-                        <span class="header-social">
-							<a href="#" class="hovicon"><i class="icon-facebook-logo-circle"></i></a>
-							<a href="#" class="hovicon"><i class="icon-twitter-logo-circle"></i></a>
-							<a href="#" class="hovicon"><i class="icon-google-plus-circle"></i></a>
-						</span>
+                        <!-- <span class="header-social">
+							<a href="#"  class="hovicon"><i id="facebook-iconss1" class="icon-facebook-logo-circle"></i></a>
+							<a href="#" class="hovicon"><i class="fa-brands fa-instagram text-[#3368c6] bg-blue-200"></i></a>
+							<a href="#" class="hovicon"><i class="icon-whatsapp"></i></a>
+						</span> -->
+                        <!-- script -->
+                        <script>
+                            // whatsapp icons
+            //                 const whatsappIconss1 = document.getElementById("whatsapp-iconss1");
+            //                 const phoneNumberss1 = "7709641657"; // Replace with the desired phone number
+            //                 whatsappIconss1.addEventListener("click", function() {
+            //                     const url = `https://wa.me/${phoneNumber}`;
+            //   window.location.href = url;
+            
+            //                 });
+            // instagramicon
+            const instagramIconss1 = document.getElementById('instagram-iconss1');
+            instagramIconss1.addEventListener('click', () => {
+            window.location.href = 'https://instagram.com/palve_hospital?igshid=MzRlODBiNWFlZA==';
+            });
+            
+            // facebook icons
+            const facebookIconss1 = document.getElementById('facebook-iconss1');
+            facebookIconss1.addEventListener('click', () => {
+            window.location.href = 'https://www.facebook.com/profile.php?id=100090442359211';
+            });
+            </script>
+                        <!-- script -->
                     </div>
                 </div>
             </div>
@@ -80,27 +106,26 @@
                     <div class="col-lg ml-auto header-nav-wrap">
                         <div class="header-nav js-header-nav">
                             <nav class="navbar navbar-expand-lg btco-hover-menu">
-                                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown" style="max-height: 272px;">
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About Us</a>
+                                            <a class="nav-link" href="./about.html">About Us</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="services.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="services.html">All Services</a></li>
-                                                <li><a class="dropdown-item" href="service-page.html">Service Page</a></li>
-                                                <li><a class="dropdown-item" href="prices.html">Prices</a></li>
-                                                <li><a class="dropdown-item" href="shop-listing.html">Online Shop</a></li>
+                                                <li><a class="dropdown-item" href="service-page.html">Hospital Services</a></li>
+                                                <li><a class="dropdown-item" href="prices.html">DIiagnostic Services</a></li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item">
+                                        <!-- <li class="nav-item">
                                             <a href="gallery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Smiles Gallery</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="gallery.html">Creative Gallery</a></li>
                                                 <li><a class="dropdown-item" href="gallery-simple.html">Simple Gallery</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a href="our-specialist.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Our Specialists</a>
                                             <ul class="dropdown-menu">
@@ -112,27 +137,25 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="testimonials.html">Testimonials</a>
                                         </li>
-                                        <li class="nav-item dropdown">
+                                        <!-- <li class="nav-item dropdown">
                                             <a href="blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                             <ul class="dropdown-menu">
                                                 <li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
                                                 <li><a class="dropdown-item" href="blog-grid.html">Blog Grid Posts</a></li>
                                                 <li><a class="dropdown-item" href="blog-post-page.html">Blog Single Post</a></li>
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li class="nav-item">
                                             <a class="nav-link" href="contact.html">Contacts</a>
                                         </li>
+                                        <div class="ml-10">
+                                        <li>
+                                            <a href="#" class="btn" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>Appointment</span><i class="icon-right-arrow"></i></a>
+                                        </li>
+                                        </div>
                                     </ul>
                                 </div>
                             </nav>
-                        </div>
-                        <div class="header-search">
-                            <form action="#" class="form-inline">
-                                <i class="icon-search"></i>
-                                <input type="text" placeholder="Search">
-                                <button type="submit"><i class="icon-search"></i></button>
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -152,7 +175,7 @@
 								<i class="icon-placeholder"></i><span>Location</span></a>
                                 <div class="link-drop p-0">
                                     <div class="google-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40119.804311386426!2d-97.32055794896301!3d37.64364017354126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bae4ec254beb5f%3A0x410df48edd2f5ede!2sGraceMed%20Jardine%20Family%20Clinic!5e0!3m2!1sen!2sua!4v1579853082410!5m2!1sen!2sua"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15129.260996089244!2d73.9279055!3d18.5598209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c15d9000f31d%3A0x9fb73445a5f332d0!2sDr%20Palve%20Clinic!5e0!3m2!1sen!2sin!4v1686734087197!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -164,20 +187,17 @@
                                     <h5 class="link-drop-title"><i class="icon-clock"></i>Working Time</h5>
                                     <table class="row-table">
                                         <tr>
-                                            <td><i>Mon-Thu</i></td>
-                                            <td>08:00 - 20:00</td>
+                                            <td><i>Mon-Sat</i></td>
+                                            <td>Morning 9:30 AM to 2:00 PM</td>
                                         </tr>
                                         <tr>
-                                            <td><i>Friday</i></td>
-                                            <td> 07:00 - 22:00</td>
-                                        </tr>
-                                        <tr>
-                                            <td><i>Saturday</i></td>
-                                            <td>08:00 - 18:00</td>
+                                            <td><i>Mon-Sat</i></td>
+                                            <td>Evening 5:00 PM to 9:00 PM</td>
                                         </tr>
                                         <tr>
                                             <td><i>Sunday</i></td>
-                                            <td>Closed</td>
+                                            <td>10 AM to 12 PM
+                                            (By An Appointment)</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -273,48 +293,14 @@
                             </div>
                             <div class="col">
                                 <a href="#" class="link">
-								<i class="icon-price-tag"></i><span>Calculator</span>
-							</a>
-                                <div class="link-drop">
-                                    <h5 class="link-drop-title"><i class="icon-price-tag"></i>Quick Pricing</h5>
-                                    <table class="row-table">
-                                        <tr>
-                                            <td>Initial Consultation</td>
-                                            <td>$10</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Dental check-up</td>
-                                            <td>$15</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Routine Exam (no xrays)</td>
-                                            <td>$50</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Simple Removal of a tooth</td>
-                                            <td>$122</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Teeth cleaning</td>
-                                            <td>$50 - $75</td>
-                                        </tr>
-                                        <tr>
-                                            <td>X-ray image</td>
-                                            <td>$10</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <a href="#" class="link">
 								<i class="icon-emergency-call"></i><span>Emergency Case</span></a>
                                 <div class="link-drop">
                                     <h5 class="link-drop-title"><i class="icon-emergency-call"></i>Emergency Case</h5>
                                     <p>Emergency dental care may be needed if you have had a blow to the face, lost a filling, or cracked a tooth. </p>
                                     <ul class="icn-list">
-                                        <li><i class="icon-telephone"></i><span class="phone">1-800-267-0000<br>1-800-267-0001</span>
+                                        <li><i class="icon-telephone"></i><span class="phone">+91 8149202506</span>
                                         </li>
-                                        <li><i class="icon-black-envelope"></i><a href="mailto:info@besthotel-email.com">info@besthotel-email.com</a></li>
+                                        <li><i class="icon-black-envelope"></i><a href="mailto:info@drpalvehospital.com.com">info@drpalvehospital.com.com</a></li>
                                     </ul>
                                     <p class="text-right mt-2"><a href="#contactForm" class="btn btn-sm btn-hover-fill link-inside">Our Contacts</a></p>
                                 </div>
@@ -362,14 +348,14 @@
                 </div>
                 <div class="main-slider mb-0 arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": true}'>
                     <div class="slide">
-                        <div class="img--holder" data-bg="images/content/slider/slide-01.jpg"></div>
+                        <div class="img--holder " data-bg="images/content/slider/DBT.jpg"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
-                                    <div class="container">
-                                        <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Leading the Way<br>
-                                            <b>in Laboratory Research</b></div>
-                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Advanced medicine. Compassionate care</div>
+                                    <div class="container text-black">
+                                        <div class="slide-txt1 text-no-uppercase " data-animation="fadeInDown" data-animation-delay="1s">DIABETES SPECIALITY CARE<br>
+                                            </div>
+                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Highest standards of customer service</div>
                                         <div class="slide-btn"><a href="services.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Explore our services</span><i class="icon-right-arrow"></i></a></div>
                                     </div>
                                 </div>
@@ -377,14 +363,14 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="img--holder" data-bg="images/content/slider/slide-02.jpg"></div>
+                        <div class="img--holder" data-bg="images/content/slider/Diagnostic.jpg"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
                                     <div class="container">
-                                        <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
-                                            <br><b>Full Medical Care!</b></div>
-                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Highest standards of customer service</div>
+                                        <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">DEDICATED DIAGNOSTIC CENTER
+                                           </div>
+                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">The best Diagnostic Service in Pune</div>
                                         <div class="slide-btn"><a href="services.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
                                     </div>
                                 </div>
@@ -392,14 +378,14 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="img--holder" data-bg="images/content/slider/slide-03.jpg"></div>
+                        <div class="img--holder" data-bg="images/content/slider/Homeopathy.jpg"></div>
                         <div class="slide-content center">
                             <div class="vert-wrap container">
                                 <div class="vert">
                                     <div class="container">
-                                        <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
-                                            <br><b>Full Medical Care!</b></div>
-                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Highest standards of customer service</div>
+                                        <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">DEDICATED SEPARATE HOMEOPATHY
+                                            CENTER</div>
+                                        <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">For all kind of Homeopathy Services</div>
                                         <div class="slide-btn"><a href="services.html" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
                                     </div>
                                 </div>
@@ -468,29 +454,30 @@
                     <div class="h-decor"></div>
                 </div>
                 <div class="nav nav-pills-icons js-nav-pills-carousel" role="tablist">
-                    <a class="nav-link active" data-toggle="pill" href="#tab-A" role="tab"><i class="icon-molecular"></i><span>Molecular Testing & Oncology</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-B" role="tab"><i class="icon-testtube2"></i><span>Histology</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-C" role="tab"><i class="icon-micro"></i><span>General Diagnostic<br>Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-D" role="tab"><i class="icon-testtube"></i><span>Naturopathic<br>Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-E" role="tab"><i class="icon-chromosome"></i><span>Genetics Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-F" role="tab"><i class="icon-dropper"></i><span>Cytology</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-H" role="tab"><i class="icon-molecular"></i><span>Molecular Testing & Oncology</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-I" role="tab"><i class="icon-testtube2"></i><span>Histology</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-J" role="tab"><i class="icon-micro"></i><span>General Diagnostic<br>Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-K" role="tab"><i class="icon-testtube"></i><span>Naturopathic<br>Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-L" role="tab"><i class="icon-chromosome"></i><span>Genetics Tests</span></a>
-                    <a class="nav-link" data-toggle="pill" href="#tab-M" role="tab"><i class="icon-dropper"></i><span>Cytology</span></a>
+                    <a class="nav-link active" data-toggle="pill" href="#tab-A" role="tab"><i class="icon-molecular"></i><span>ECG</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-B" role="tab"><i class="icon-testtube2"></i><span>X-RAY</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-C" role="tab"><i class="icon-micro"></i><span>2 D ECHO<br>Tests</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-D" role="tab"><i class="icon-testtube"></i><span>DOPPLER<br>Tests</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-E" role="tab"><i class="icon-chromosome"></i><span>ULTRASOUND Tests</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-F" role="tab"><i class="icon-dropper"></i><span>PATHOLOGY</span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-H" role="tab"><i class="icon-molecular"></i><span>PFT / SPIROMETRY <br>STRESS TEST (TMT) </span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-I" role="tab"><i class="icon-testtube2"></i><span>ABPM (Ambulatory Blood <br>
+                        Pressure Monitoring) 
+                        </span></a>
+                    <a class="nav-link" data-toggle="pill" href="#tab-J" role="tab"><i class="icon-micro"></i><span>CGMS (Continuous Glucose
+                        <br>Monitoring System)</span></a>
+                   
                 </div>
                 <div id="tab-content" class="tab-content mt-2 mt-sm-4">
                     <div id="tab-A" class="tab-pane fade show active" role="tabpanel">
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01.jpg" alt="" class="img-fluid">
+                                <img src="images/ecg.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
-                                    <h3>Molecular Testing & Oncology</h3>
+                                    <h3>ECG</h3>
                                     <p>Our comprehensive and highly sensitive and specific range of tests can detect genetic alterations that drive tumor growth in all types of cancer. We are highly experienced in characterizing mechanisms of action of targeted
                                         therapies, particularly against epidermal growth factor receptor (EGFR), as well as other tyrosine kinase inhibitors. We perform:</p>
                                     <ul class="marker-list-md">
@@ -508,11 +495,11 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-2.jpg" alt="" class="img-fluid">
+                                <img src="images/X-ray.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
-                                    <h3>Histology</h3>
+                                    <h3>X-Ray</h3>
                                     <p>Our SANAS accredited histology laboratory offers a diagnostic service to both the private and public sectors. Our large team of anatomical pathologists, technologists and technicians, with vast amounts of experience
                                         offers a diagnostic and consultative service on a number of tissue samples including biopsies and resection specimens.</p>
                                     <ul class="marker-list-md">
@@ -530,11 +517,11 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-3.jpg" alt="" class="img-fluid">
+                                <img src="images/echo.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
-                                    <h3>General Diagnostic Tests</h3>
+                                    <h3>2 D ECHO</h3>
                                     <p>We are an industry leader in ensuring exceptional quality testing in our state-of-the-art facilities. Diagnostic tests are used to detect, confirm, or rule out the presence of a disease or medical condition. They can
                                         be used to screen for certain conditions in people who are at increased risk; to evaluate the effects of treatment; or to monitor disease progression.</p>
                                     <ul class="marker-list-md">
@@ -552,7 +539,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-4.jpg" alt="" class="img-fluid">
+                                <img src="images/Doppler.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -575,7 +562,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-5.jpg" alt="" class="img-fluid">
+                                <img src="images/Ultrasound.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -597,7 +584,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-6.jpg" alt="" class="img-fluid">
+                                <img src="images/Pathology.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -619,7 +606,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01.jpg" alt="" class="img-fluid">
+                                <img src="images/PTF.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -641,7 +628,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-2.jpg" alt="" class="img-fluid">
+                                <img src="images/Amp.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -663,7 +650,7 @@
                         <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
                         <div class="row">
                             <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-3.jpg" alt="" class="img-fluid">
+                                <img src="images/Cmsp.jpg" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-6">
                                 <div class="pt-xl-1">
@@ -681,73 +668,9 @@
                             </div>
                         </div>
                     </div>
-                    <div id="tab-K" class="tab-pane fade" role="tabpanel">
-                        <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
-                        <div class="row">
-                            <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-4.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="pt-xl-1">
-                                    <h3>Naturopathic Tests</h3>
-                                    <p>We will perform both standard and specialized naturopathic lab tests as part of the assessment process. Naturopathic doctors can order many of the same diagnostic tests as your family physician, such as blood work,
-                                        stool, urine, and saliva testing. We can also perform an H Pylori Breath Test, Stool Ova and Parasite testing.
-                                    </p>
-                                    <ul class="marker-list-md">
-                                        <li>Gastrointestinal Testing</li>
-                                        <li>Laboratory Tests on Hormonal Levels</li>
-                                        <li>Cardiovascular Lab Tests</li>
-                                        <li>Toxins & Pollutant Testing</li>
-                                    </ul>
-                                    <a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="tab-L" class="tab-pane fade" role="tabpanel">
-                        <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
-                        <div class="row">
-                            <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-5.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="pt-xl-1">
-                                    <h3>Genetics Tests</h3>
-                                    <p>Genes are DNA instructions that we all inherit from our parents. Different “mistakes” in our genes, called mutations, can cause different diseases. Some of these diseases are rare, like cystic fibrosis or Huntington’s
-                                        disease, others are common, like cancer. Genetic tests can be used to confirm the diagnosis or give you information about possible development of a disease.</p>
-                                    <ul class="marker-list-md">
-                                        <li>PCR</li>
-                                        <li>DNA Sequencing</li>
-                                        <li>Cytogenetics (Karyotyping and FISH)</li>
-                                        <li>Microarrays</li>
-                                    </ul>
-                                    <a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="tab-M" class="tab-pane fade" role="tabpanel">
-                        <div class="tab-bg"><img src="images/content/bg-map.png" alt=""></div>
-                        <div class="row">
-                            <div class="col-md-6 h-100 mb-2 mb-md-0">
-                                <img src="images/content/index-img-01-6.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="col-md-6">
-                                <div class="pt-xl-1">
-                                    <h3>Cytology</h3>
-                                    <p>Aside from tissue biopsy, cytology serves as an indispensable tool in screening and diagnosing cancer. In this technique, a cytological material is obtained from the patient, spread onto glass slides for microscopic
-                                        examination, stained, screened for abnormalities and assessed prior to the issuance of a final report.</p>
-                                    <ul class="marker-list-md">
-                                        <li>Gynaecological Cytology</li>
-                                        <li>Non-Gynaecological Cytology</li>
-                                        <li>Fine Needle Aspiration Cytology</li>
-                                        <li>BAL Differential Cell Count</li>
-                                    </ul>
-                                    <a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
+                   
+                    
                 </div>
             </div>
         </div>
@@ -792,7 +715,7 @@
                     </div>
                     <div class="col-lg-6 position-relative">
                         <div class="ml-xl-6">
-                            <img src="images/content/index-img-02.jpg" class="w-sm-100" alt="">
+                            <img src="images/lab.jpg" class="w-sm-100" alt="">
                         </div>
                         <div class="over-image-card pos-left">
                             <div class="over-image-card-icon"><i class="icon-download"></i></div>
@@ -818,7 +741,7 @@
                         </div>
                     </div>
                     <div class="image-shift-right">
-                        <img src="images/content/banner-left.jpg" alt="" class="w-md-100">
+                        <img src="images/patient.jpg" alt="" class="w-md-100">
                         <div class="over-image-card pos-right">
                             <div class="over-image-card-icon"><i class="icon-card"></i></div>
                             <div class="over-image-card-text">
@@ -1253,7 +1176,7 @@
                 <div class="container">
                     <div class="row no-gutters">
                         <div class="col-sm-5 col-lg-5 order-2 order-sm-2 mt-3 mt-md-0 text-center">
-                            <img src="images/content/banner-appointment.png" alt="" class="banner-appointment-form-image">
+                            <img src="images/hand-holding-blood-glucose-meter-measuring-blood-sugar-background-is-stethoscope-chart-file.jpg" width="160%" alt="" class="banner-appointment-form-image">
                         </div>
                         <div class="col-sm-7 col-lg-7 order-1 order-sm-1 d-flex">
                             <div class="pt-2 pt-lg-6 px-lg-3 text-center">
@@ -1299,14 +1222,14 @@
                     <div class="row flex-column flex-md-row flex-lg-column">
                         <div class="col-md col-lg-auto">
                             <div class="footer-logo">
-                                <img src="images/footer-logo.png" alt="" class="img-fluid">
+                                <img src="images/Palve logo1-01.png" width="70%" alt="" class="img-fluid">
                             </div>
                             <div class="mt-2 mt-lg-0"></div>
                             <div class="footer-social d-none d-md-block d-lg-none">
-                                <a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
-                                <a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+                                <a href="https://www.facebook.com/drpalvesclinic/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+                                <a href="https://twitter.com/suvarna_palve" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
                                 <a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
-                                <a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+                                <a href="" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
                             </div>
                         </div>
                         <div class="col-md">
@@ -1321,10 +1244,10 @@
                                 </form>
                             </div>
                             <div class="footer-social d-md-none d-lg-block">
-                                <a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+                                <a href="https://www.facebook.com/people/Palve-Hospital/100090442359211/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
                                 <a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
-                                <a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
-                                <a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+                                <a href="www.palveclinic.com" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+                                <a href="https://instagram.com/palve_hospital?igshid=MzRlODBiNWFlZA==" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1358,24 +1281,15 @@
                     <h3>Our Contacts</h3>
                     <div class="h-decor"></div>
                     <ul class="icn-list">
-                        <li><i class="icon-placeholder2"></i>1560 Holden Street San Diego, CA 92139
+                        <li><i class="icon-placeholder2"></i>Sr.No.46. H.No. 1A+ 1B, Plot No.1, Opp Dwarka Garden, Govind Nagar
+                            Co. Op. Hsg. Soc. Ltd. Chandan Nagar, Kharadi, Pune-411014
                             <br>
                             <a href="#" class="btn btn-xs btn-gradient"><i class="icon-placeholder2"></i><span>Get directions on the map</span><i class="icon-right-arrow"></i></a>
                         </li>
-                        <li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">1-800-267-0000</span>, <span class="text-nowrap">1-800-267-0001</span></span></b>
-                            <br>(24/7 General inquiry)
+                        <li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+91 8149202506</span>
                         </li>
-                        <li><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@dentco.net</a></li>
+                        <li><i class="icon-black-envelope"></i><a href="mailto:info@drpalvehospital.com">info@drpalvehospital.com</a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row text-center text-md-left">
-                    <div class="col-sm">Copyright © 2020 <a href="#">Medlab</a><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-                        <a href="#">Privacy Policy</a></div>
-                    <div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">For emergency cases&nbsp;&nbsp;&nbsp;</span><i class="icon-telephone"></i>&nbsp;&nbsp;<b>1-800-267-0000</b></div>
                 </div>
             </div>
         </div>
