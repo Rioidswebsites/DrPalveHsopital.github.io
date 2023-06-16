@@ -666,8 +666,8 @@ pre code {
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -17639,14 +17639,13 @@ body:not(.touch) .services-tab-wrap .nav-link:hover {
 
 .department-tabs2 {
     display: flex;
-    flex-wrap: wrap;
     margin: -15px -15px 0;
 }
 
 .department-tabs2>* {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* display: flex; */
+    justify-content: center; 
+    flex-direction: column; 
     flex: 0 0 calc(50% - 30px);
     min-width: calc(50% - 30px);
     margin: 15px;
