@@ -56,6 +56,25 @@
     --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.card1{
+    background-color:white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    margin-left: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.card1 img{
+    height:100%;
+    width: 100%;
+    margin-left:-20px;
+}
+
+.card1 h5{
+    font-size: 18px;
+    text-align: center;
+}
+
 *,
 *::before,
 *::after {
@@ -241,14 +260,14 @@ figure {
     margin: 0 0 1rem;
 }
 
-img {
+/* img {
     vertical-align: middle;
     border-style: none;
 }
 
 svg:not(:root) {
     overflow: hidden;
-}
+} */
 
 a,
 area,
@@ -545,7 +564,7 @@ mark,
     height: auto;
 }
 
-.img-thumbnail {
+/* .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -562,7 +581,7 @@ mark,
 .figure-img {
     margin-bottom: 15px;
     line-height: 1;
-}
+} */
 
 .figure-caption {
     font-size: 90%;
@@ -2094,7 +2113,8 @@ select.form-control-lg:not([size]):not([multiple]),
     font-size: 16px;
     line-height: 19px;
     border-radius: 2px;
-    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: 0.15s ease-in-out;
+    background-color:#2fb1E5;
 }
 
 .btn:focus,
@@ -15091,7 +15111,8 @@ body.noScroll {
     width: 100%;
 }
 
-.header-nav .navbar {
+.header-nav .
+ {
     padding: 0;
     margin: 0;
 }
@@ -17182,7 +17203,7 @@ body.noScroll {
     }
 }
 
-.service-card-photo:after {
+/* .service-card-photo:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -17206,7 +17227,7 @@ body.noScroll {
 .service-card:hover .service-card-photo:after {
     opacity: .2;
     transition: opacity 0.5s ease 0.2s;
-}
+} */
 
 .service-card-photo+.service-card-name {
     margin-top: 30px;
@@ -27254,4 +27275,26 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 .layout-medlab .footer-text p {
     font-size: 14px;
     line-height: 23px;
+}
+
+.button2{
+    height: 3rem;
+    width:10rem;
+    color:#ffffff;
+    background-color:#2fb1E5;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color:#2fb1E5;
+    margin-left: 75rem;
+}
+
+.button2 a{
+    text-decoration: none;
+}
+
+.button2:hover{
+    background-color: #80b3ff;
+    border-color: #80b3ff;
+    color:#ffffff;
 }
