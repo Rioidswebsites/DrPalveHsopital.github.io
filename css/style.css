@@ -10469,8 +10469,8 @@ body.touch .tooltip.show {
 }
 
 .tags-list li a:hover {
-    background-color: #3368c6;
-    border-color: #3368c6;
+    background-color: #2fb1E5;
+    border-color: #2fb1E5;
     color: #fff;
 }
 
@@ -10604,7 +10604,7 @@ body.touch .tooltip.show {
     left: 0;
     width: 15%;
     height: 3px;
-    background-color: #3368c6;
+    background-color: #2fb1E5;
     transition: 0.2s;
 }
 
@@ -10651,12 +10651,12 @@ body.touch .tooltip.show {
 
 .nav-pills-simple .nav-link:hover {
     background: transparent;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .nav-pills-simple .nav-link.active {
     background: transparent;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .nav-pills .nav-link {
@@ -10693,7 +10693,7 @@ body.touch .tooltip.show {
 
 .nav-pills .nav-link:hover {
     background: transparent;
-    border-color: #3368c6;
+    border-color: #2fb1E5;
 }
 
 .nav-pills-icons {
@@ -10716,7 +10716,7 @@ body.touch .tooltip.show {
     width: 45px;
     height: 45px;
     margin-top: -23px;
-    color: #3368c6;
+    color: #2fb1E5;
     border: none;
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -15111,8 +15111,7 @@ body.noScroll {
     width: 100%;
 }
 
-.header-nav .
- {
+.header-nav {
     padding: 0;
     margin: 0;
 }
@@ -25229,7 +25228,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     margin-right: auto;
     margin-top: 20px;
     padding: 0 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 1023px) {
@@ -25257,7 +25256,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     text-decoration: none;
 }
 
-.doctor-box-photo:after {
+/* .doctor-box-photo:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -25272,11 +25271,11 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     opacity: 0;
     transition: opacity 0 ease 0;
     pointer-events: none;
-}
+} */
 
-.doctor-box:hover .doctor-box-photo {
+/* .doctor-box:hover .doctor-box-photo {
     border-radius: 50%;
-}
+} */
 
 .doctor-box:hover .doctor-box-photo:after {
     opacity: .2;
@@ -25299,7 +25298,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     font-size: 16px;
     line-height: 1em;
     font-weight: 400;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .doctor-box-phone {
@@ -25438,7 +25437,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     font-size: 14px;
     font-weight: 600;
     font-family: "Poppins", serif;
-    color: #3368c6;
+    color: #2fb1E5;
     border-top: 1px solid #fafafa;
     text-decoration: none;
 }
@@ -25605,7 +25604,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     text-decoration: none;
     height: 42px;
     width: 42px;
-    color: #3368c6;
+    color: #2fb1E5;
     transition: .2s;
 }
 
@@ -25869,7 +25868,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
 }
 
 .doctor-info-phone a:hover {
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .doctor-info-phone [class*='icon-'] {
@@ -25877,7 +25876,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     top: -1px;
     padding-right: 7px;
     font-size: 11px;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .doctor-info-name {
@@ -25894,8 +25893,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     font-size: 16px;
     line-height: 1em;
     margin-bottom: 0;
-    color: #3368c6;
-}
+    color:#2fb1E5;
 
 .doctor-info-social {
     font-size: 15px;
@@ -25906,7 +25904,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     display: inline-block;
     width: 37px;
     height: 37px;
-    color: #3368c6;
+    color: #2fb1E5;
     background-color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -25914,7 +25912,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
 }
 
 .doctor-info-social a:hover {
-    background-color: #3368c6;
+    background-color: #2fb1E5;
     color: #fff;
     text-decoration: none;
     box-shadow: 0 0 0 3px rgba(51, 104, 198, 0.2);
@@ -26644,7 +26642,7 @@ body:not(.touch) .prd-info .btn:focus {
     content: '\e906';
     font-size: 10px;
     font-family: 'dentco';
-    color: #3368c6;
+    color: #2fb1E5;
     transition: .2s;
 }
 
@@ -26713,7 +26711,7 @@ body:not(.touch) .prd-info .btn:focus {
 .count-add:hover,
 .count-reduce:hover {
     cursor: pointer;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .count-input {
@@ -26767,6 +26765,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     border: 1px solid #f0f0f0;
     border-bottom: 2px solid transparent;
     border-radius: 0;
+    background-color:#f4f4f4;
 }
 
 .prd-tabs-wrap .nav-pills .nav-link:hover {
@@ -26774,8 +26773,8 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 
 .prd-tabs-wrap .nav-pills .nav-link.active {
-    border-bottom-color: #3368c6;
-    color: #3368c6;
+    border-bottom-color: #2fb1E5;
+    color: #2fb1E5;
     box-shadow: none;
 }
 
