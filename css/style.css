@@ -25324,7 +25324,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     top: -1px;
     padding-right: 7px;
     font-size: 11px;
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 @media (max-width: 1023px) {
@@ -25373,7 +25373,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
     display: inline-block;
     width: 30px;
     height: 30px;
-    color: #3368c6;
+    color: #2fb1E5;
     background-color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -25381,7 +25381,7 @@ body:not(.touch) .quickLinks.closed .quickLinks-open:hover span {
 }
 
 .doctor-box-social a:hover {
-    background-color: #3368c6;
+    background-color: #2fb1E5;
     color: #fff;
     text-decoration: none;
     box-shadow: 0 0 0 3px rgba(51, 104, 198, 0.2);
@@ -26824,7 +26824,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     margin: 10px 0 25px;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
 .prices-box-title {
@@ -26845,7 +26845,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     line-height: 1em;
     font-weight: 600;
     font-family: "Poppins", serif;
-    color: #3368c6;
+    color: #2fb1E5;
     background-color: #f7f7f7;
 }
 
@@ -26862,6 +26862,9 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 
 .prices-box-link {
     margin-top: 32px;
+    color: black;
+    margin-right: 10px;
+
 }
 
 .prices-box-row {
@@ -26895,7 +26898,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 }
 
 .prices-box.prices-box--style2 .prices-box-price sub:first-child {
-    color: #3368c6;
+    color: #2fb1E5;
 }
 
 .prices-box.prices-box--style2 .prices-box-row {
@@ -27034,6 +27037,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     padding: 27px 25px;
     font-size: 14px;
     line-height: 16px;
+    color:#f7f7f7;
 }
 
 @media (max-width: 575px) {
@@ -27175,7 +27179,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
 .layout-medlab:not(.touch) .btn:focus:hover {
     background: #5885d4;
     color: #fff;
-    border: 1px solid transparent;
+    border: 1px solid black;
 }
 
 .layout-medlab .btn-fill,
