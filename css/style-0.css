@@ -3956,7 +3956,7 @@ button.close {
 
 #modalpopup1{
     border-radius: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .modal-backdrop {
