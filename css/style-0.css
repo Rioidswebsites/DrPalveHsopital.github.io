@@ -2118,6 +2118,7 @@ select.form-control-lg:not([size]):not([multiple]),
     font-size: 16px;
     line-height: 19px;
     border-radius: 2px;
+    margin-left: 4;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -3003,7 +3004,6 @@ tbody.collapse.show {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin-bottom: -20px;
-    
 }
 
 .nav-link:focus,
@@ -3930,12 +3930,18 @@ button.close {
     overflow-y: auto;
 }
 
-.modal-dialog {
+/* .modal-dialog {
     position: relative;
     width: auto;
     margin: 10px;
     pointer-events: none;
-}
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    /* background: white; */
+    /* box-shadow: 0 8px 16px rgba(0, 0,0,0.5); */
+} */
+
+
 
 .modal-content {
     position: relative;
@@ -3945,8 +3951,12 @@ button.close {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
-    outline: 0;
+    border-radius:40px;
+}
+
+#modalpopup1{
+    border-radius: 40px;
+    border: 1px solid black;
 }
 
 .modal-backdrop {
@@ -8241,6 +8251,30 @@ body:not(.touch) .btn:focus {
     text-transform: none;
     letter-spacing: .05em;
     transition: 0.3s;
+}
+
+.btn1{
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    padding: 15px 25px;
+    border: 2px solid #2fb1E5;
+    border-radius: 26px;
+    background: transparent;
+    text-transform: none;
+    letter-spacing: .05em;
+    transition: 0.3s; 
+    text-decoration: none;
+}
+
+.btn1:not([disabled]):not(.disabled):active,
+.btn1:not([disabled]):not(.disabled).active {
+    background-image: 0;
 }
 
 @media (max-width: 1229px) {
@@ -15065,7 +15099,7 @@ body.noScroll {
 
 .header-content.stuck .header-logo,
 .header-content.stuck .header-logo img {
-    max-height: 70px;
+    max-height: 80px;
 }
 
 @media (max-width: 1023px) {
@@ -19751,11 +19785,14 @@ body:not(.touch) .faq-wrap .nav-link:hover {
 
 .modal-body {
     padding: 30px;
+    border-radius: 40px;
+    filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
 }
 
 .modal-content {
     border: 0;
-    border-radius: 0;
+    border-radius: 40px;
+ 
 }
 
 .modal-form .modal-dialog {
@@ -23777,6 +23814,14 @@ transition-duration: 150ms;
 
 .Packages-btn{
     margin-left: 40rem;
+}
+
+.pricepop{
+    text-align: center;
+}
+
+.lawbtn{
+    margin-left: 10rem;
 }
 
 

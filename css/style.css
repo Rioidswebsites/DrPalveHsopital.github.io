@@ -27301,3 +27301,7 @@ body:not(.touch) .prd-tabs-wrap .btn:focus {
     border-color: #80b3ff;
     color:#ffffff;
 }
+
+.lawbtn{
+    margin-left: 50rem;
+}
