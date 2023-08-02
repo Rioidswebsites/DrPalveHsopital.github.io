@@ -693,6 +693,14 @@ pre code {
     margin-right: -15px;
     margin-left: -15px;
 }
+.row1 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 .no-gutters {
     margin-right: 0;
@@ -4042,7 +4050,16 @@ button.close {
         max-width: 800px;
     }
 }
-
+@media (max-width: 480px) {
+    .btn1 {
+      display: none;
+    }
+  }
+@media (max-width: 480px) {
+    .navbar-nav {
+      padding-left: 10px;
+    }
+  }
 .tooltip {
     position: absolute;
     z-index: 1070;
