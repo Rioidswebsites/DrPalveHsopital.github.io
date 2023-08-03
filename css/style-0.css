@@ -23702,6 +23702,20 @@ transition-duration: 150ms;
     position: relative;
     color: #787878;
 }
+.doctorsList {
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+}
+@media (max-width: 575px) {
+    .doctorsList {
+        display: grid;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    }
+
+
 
 .prices-box.prices-box--style3 .prices-box-row:before {
     font-family: 'dentco';
