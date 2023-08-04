@@ -7696,6 +7696,11 @@ button,
 
 .theme-color {
     color: #2fb1E5;
+    /* font-size: 40px; */
+}
+.theme-color1 {
+    color: #2fb1E5;
+    font-size: 40px;
 }
 
 .p-lg {
@@ -7988,9 +7993,10 @@ h6 {
     position: relative;
     z-index: 1;
     margin-bottom: 17px;
-    font-size: 17px;
+    text-transform: uppercase;
+    font-size: 60px;
     line-height: 1.2em;
-    font-weight: 500;
+    font-weight: 700;
     font-family: "Poppins", serif;
     letter-spacing: 1px;
 }
