@@ -3914,7 +3914,7 @@ button.close {
     /* border: 2px solid black; */
     /* background: white; */
     /* box-shadow: 0 8px 16px rgba(0, 0,0,0.5); */
-} */
+
 
 
 
@@ -16717,7 +16717,7 @@ body.noScroll {
 }
 
 #mainSlider .slide-txt1 {
-    font-size: 54px;
+    font-size: 44px;
     line-height: 1.26em;
     font-weight: 400;
     font-family: "Poppins", serif;
